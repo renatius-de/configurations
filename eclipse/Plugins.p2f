@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='27'>
+  <ius size='31'>
     <iu id='org.eclipse.buildship.feature.group' name='Buildship: Eclipse Plug-ins for Gradle' version='1.0.18.v20160817-1550'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
@@ -59,9 +59,19 @@
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
+    <iu id='edu.umd.cs.findbugs.plugin.eclipse.feature.group' name='FindBugs Feature' version='3.0.2.20160306-90c514b'>
+      <repositories size='1'>
+        <repository location='http://andrei.gmxhome.de/eclipse'/>
+      </repositories>
+    </iu>
     <iu id='org.eclipse.jgit.feature.group' name='Java implementation of Git' version='4.4.1.201607150455-r'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
+    <iu id='JMockit_Eclipse_Plugin.feature.group' name='JMockit Eclipse Plug-in' version='1.0.1'>
+      <repositories size='1'>
+        <repository location='http://dl.bintray.com/ajermakovics/jmockit/1.0.1/'/>
       </repositories>
     </iu>
     <iu id='org.jvmmonitor.feature.group' name='JVM Monitor' version='3.8.1.201302030008'>
@@ -95,48 +105,82 @@
       </repositories>
     </iu>
     <iu id='org.eclipse.mylyn.hudson.feature.group' name='Mylyn Builds Connector: Hudson/Jenkins' version='1.12.0.v20160524-1837'>
-      <repositories size='1'>
+      <repositories size='4'>
+        <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
+        <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.mylyn.ide_feature.feature.group' name='Mylyn Context Connector: Eclipse IDE' version='3.20.0.v20160421-1902'>
-      <repositories size='1'>
+      <repositories size='4'>
+        <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
+        <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.mylyn.java_feature.feature.group' name='Mylyn Context Connector: Java Development' version='3.20.0.v20160421-1902'>
-      <repositories size='1'>
+      <repositories size='4'>
+        <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
+        <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.mylyn_feature.feature.group' name='Mylyn Task List' version='3.20.0.v20160608-1838'>
-      <repositories size='1'>
+      <repositories size='4'>
+        <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
+        <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.mylyn.context_feature.feature.group' name='Mylyn Task-Focused Interface' version='3.20.0.v20160608-1905'>
-      <repositories size='1'>
+      <repositories size='4'>
+        <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
+        <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.mylyn.bugzilla_feature.feature.group' name='Mylyn Tasks Connector: Bugzilla' version='3.20.0.v20160425-1835'>
-      <repositories size='1'>
+      <repositories size='4'>
+        <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
+        <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.mylyn.git.feature.group' name='Mylyn Versions Connector: Git' version='1.12.0.v20160421-1824'>
-      <repositories size='1'>
+      <repositories size='4'>
+        <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
+        <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
     <iu id='org.eclipse.mylyn.wikitext_feature.feature.group' name='Mylyn WikiText' version='2.9.0.v20160601-1831'>
-      <repositories size='1'>
+      <repositories size='4'>
+        <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
+        <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
     <iu id='com.socosomi.storyteller.feature.group' name='StoryTeller' version='1.4.0.201208182120'>
       <repositories size='1'>
         <repository location='http://storyteller.socosomi.com/update/'/>
+      </repositories>
+    </iu>
+    <iu id='testNameGenerator.feature.group' name='TestNameGenerator' version='1.0.4.201412120157'>
+      <repositories size='1'>
+        <repository location='http://testNameGenerator.github.io/Eclipse-plugin/'/>
+      </repositories>
+    </iu>
+    <iu id='org.dadacoalition.yedit.feature.feature.group' name='YEdit Feature' version='1.0.20.201509041456-RELEASE'>
+      <repositories size='1'>
+        <repository location='http://p2.pdt-extensions.org/'/>
       </repositories>
     </iu>
   </ius>
