@@ -2,22 +2,22 @@
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
   <ius size='31'>
-    <iu id='org.eclipse.buildship.feature.group' name='Buildship: Eclipse Plug-ins for Gradle' version='1.0.18.v20160817-1550'>
+    <iu id='org.eclipse.buildship.feature.group' name='Buildship: Eclipse Plug-ins for Gradle' version='1.0.21.v20161010-1640'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.recommenders.rcp.feature.feature.group' name='Code Recommenders for Java Developers' version='2.4.3.v20160913-0645'>
+    <iu id='org.eclipse.recommenders.rcp.feature.feature.group' name='Code Recommenders for Java Developers' version='2.4.5.v20161130-1427'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.recommenders.mylyn.rcp.feature.feature.group' name='Code Recommenders Mylyn Integration' version='2.4.3.v20160913-0645'>
+    <iu id='org.eclipse.recommenders.mylyn.rcp.feature.feature.group' name='Code Recommenders Mylyn Integration' version='2.4.5.v20161130-1427'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.recommenders.snipmatch.rcp.feature.feature.group' name='Code Recommenders Snipmatch' version='2.4.3.v20160913-0645'>
+    <iu id='org.eclipse.recommenders.snipmatch.rcp.feature.feature.group' name='Code Recommenders Snipmatch' version='2.4.5.v20161130-1427'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
@@ -43,12 +43,12 @@
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
-    <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='4.6.1.20161007-1200'>
+    <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='4.6.2.20161208-0625'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.jdt.feature.group' name='Eclipse Java Development Tools' version='3.12.1.v20160907-1200'>
+    <iu id='org.eclipse.jdt.feature.group' name='Eclipse Java Development Tools' version='3.12.2.v20161124-1400'>
       <repositories size='2'>
         <repository location='http://download.eclipse.org/releases/neon'/>
         <repository location='http://download.eclipse.org/eclipse/updates/4.6'/>
@@ -104,7 +104,7 @@
         <repository location='http://moreunit.sourceforge.net/update-site/'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.hudson.feature.group' name='Mylyn Builds Connector: Hudson/Jenkins' version='1.12.0.v20160524-1837'>
+    <iu id='org.eclipse.mylyn.hudson.feature.group' name='Mylyn Builds Connector: Hudson/Jenkins' version='1.13.0.v20160806-1446'>
       <repositories size='4'>
         <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
@@ -112,7 +112,7 @@
         <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.ide_feature.feature.group' name='Mylyn Context Connector: Eclipse IDE' version='3.20.0.v20160421-1902'>
+    <iu id='org.eclipse.mylyn.ide_feature.feature.group' name='Mylyn Context Connector: Eclipse IDE' version='3.21.0.v20160912-1820'>
       <repositories size='4'>
         <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
@@ -120,7 +120,7 @@
         <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.java_feature.feature.group' name='Mylyn Context Connector: Java Development' version='3.20.0.v20160421-1902'>
+    <iu id='org.eclipse.mylyn.java_feature.feature.group' name='Mylyn Context Connector: Java Development' version='3.21.0.v20160701-1337'>
       <repositories size='4'>
         <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
@@ -128,7 +128,7 @@
         <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn_feature.feature.group' name='Mylyn Task List' version='3.20.0.v20160608-1838'>
+    <iu id='org.eclipse.mylyn_feature.feature.group' name='Mylyn Task List' version='3.21.0.v20160914-0252'>
       <repositories size='4'>
         <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
@@ -136,7 +136,7 @@
         <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.context_feature.feature.group' name='Mylyn Task-Focused Interface' version='3.20.0.v20160608-1905'>
+    <iu id='org.eclipse.mylyn.context_feature.feature.group' name='Mylyn Task-Focused Interface' version='3.21.0.v20160815-2336'>
       <repositories size='4'>
         <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
@@ -144,7 +144,7 @@
         <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.bugzilla_feature.feature.group' name='Mylyn Tasks Connector: Bugzilla' version='3.20.0.v20160425-1835'>
+    <iu id='org.eclipse.mylyn.bugzilla_feature.feature.group' name='Mylyn Tasks Connector: Bugzilla' version='3.21.0.v20160909-1813'>
       <repositories size='4'>
         <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
@@ -152,7 +152,7 @@
         <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.git.feature.group' name='Mylyn Versions Connector: Git' version='1.12.0.v20160421-1824'>
+    <iu id='org.eclipse.mylyn.git.feature.group' name='Mylyn Versions Connector: Git' version='1.13.0.v20160630-2022'>
       <repositories size='4'>
         <repository location='http://tasktop.com/downloads/discovery/update/'/>
         <repository location='http://download.eclipse.org/releases/neon'/>
@@ -160,12 +160,10 @@
         <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.wikitext_feature.feature.group' name='Mylyn WikiText' version='2.9.0.v20160601-1831'>
-      <repositories size='4'>
-        <repository location='http://tasktop.com/downloads/discovery/update/'/>
+    <iu id='org.eclipse.mylyn.wikitext_feature.feature.group' name='Mylyn WikiText' version='2.10.1.v20161129-1925'>
+      <repositories size='2'>
         <repository location='http://download.eclipse.org/releases/neon'/>
         <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
-        <repository location='http://tasktop.com/downloads/discovery/update-3.8'/>
       </repositories>
     </iu>
     <iu id='com.socosomi.storyteller.feature.group' name='StoryTeller' version='1.4.0.201208182120'>
