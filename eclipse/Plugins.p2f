@@ -1,44 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='32'>
-    <iu id='org.eclipse.buildship.feature.group' name='Buildship: Eclipse Plug-ins for Gradle' version='2.0.2.v20170420-0909'>
+  <ius size='36'>
+    <iu id='org.eclipse.buildship.feature.group' name='Buildship: Eclipse Plug-ins for Gradle' version='2.1.2.v20170807-1321'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/buildship/updates/e46/releases/2.x'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.recommenders.rcp.feature.feature.group' name='Code Recommenders for Java Developers' version='2.4.6.v20170307-1041'>
+    <iu id='org.eclipse.recommenders.rcp.feature.feature.group' name='Code Recommenders for Java Developers' version='2.4.10.v20170911-1410'>
       <repositories size='1'>
-        <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/recommenders/updates/stable/'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.recommenders.mylyn.rcp.feature.feature.group' name='Code Recommenders Mylyn Integration' version='2.4.6.v20170307-1041'>
+    <iu id='org.eclipse.recommenders.mylyn.rcp.feature.feature.group' name='Code Recommenders Mylyn Integration' version='2.4.10.v20170911-1410'>
       <repositories size='1'>
-        <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/recommenders/updates/stable/'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.recommenders.snipmatch.rcp.feature.feature.group' name='Code Recommenders Snipmatch' version='2.4.6.v20170307-1041'>
+    <iu id='org.eclipse.recommenders.snipmatch.rcp.feature.feature.group' name='Code Recommenders Snipmatch' version='2.4.10.v20170911-1410'>
       <repositories size='1'>
-        <repository location='http://download.eclipse.org/releases/neon'/>
+        <repository location='http://download.eclipse.org/recommenders/updates/stable/'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.dltk.sh.feature.group' name='Dynamic Languages Toolkit - ShellEd IDE' version='5.7.1.201703020501'>
-      <repositories size='3'>
-        <repository location='http://download.eclipse.org/releases/neon'/>
+    <iu id='org.eclipse.dltk.sh.feature.group' name='Dynamic Languages Toolkit - ShellEd IDE' version='5.8.0.201706030400'>
+      <repositories size='1'>
         <repository location='http://p2.pdt-extensions.org/'/>
-        <repository location='http://download.eclipse.org/technology/dltk/updates-dev/latest/'/>
       </repositories>
     </iu>
-    <iu id='com.mountainminds.eclemma.feature.feature.group' name='EclEmma Java Code Coverage' version='2.3.3.201602231923'>
+    <iu id='org.eclipse.eclemma.feature.feature.group' name='EclEmma Java Code Coverage' version='3.0.0.201706140232'>
       <repositories size='1'>
         <repository location='http://update.eclemma.org/'/>
       </repositories>
     </iu>
-    <iu id='net.sf.eclipsecs.feature.group' name='Eclipse Checkstyle Plug-in' version='7.6.0.201703111252'>
-      <repositories size='2'>
-        <repository location='http://eclipse-cs.sourceforge.net/update/'/>
-        <repository location='http://eclipse-cs.sf.net/update'/>
-      </repositories>
+    <iu id='net.sf.eclipsecs.feature.group' name='Eclipse Checkstyle Plug-in' version='8.0.0.201707161819'>
+      <repositories size='0'/>
     </iu>
     <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='4.6.3.20170314-1500'>
       <repositories size='1'>
@@ -51,15 +46,18 @@
         <repository location='http://download.eclipse.org/eclipse/updates/4.6'/>
       </repositories>
     </iu>
+    <iu id='org.eclipse.wst.web_ui.feature.feature.group' name='Eclipse Web Developer Tools' version='3.8.2.v201702270442'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
     <iu id='org.eclipse.wst.xml_ui.feature.feature.group' name='Eclipse XML Editors and Tools' version='3.8.2.v201702270442'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
     <iu id='edu.umd.cs.findbugs.plugin.eclipse.feature.group' name='FindBugs Feature' version='3.0.2.20160306-90c514b'>
-      <repositories size='1'>
-        <repository location='http://andrei.gmxhome.de/eclipse'/>
-      </repositories>
+      <repositories size='0'/>
     </iu>
     <iu id='org.eclipse.egit.feature.group' name='Git integration for Eclipse' version='4.6.1.201703071140-r'>
       <repositories size='1'>
@@ -76,15 +74,18 @@
         <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
+    <iu id='org.eclipse.wst.jsdt.feature.feature.group' name='JavaScript Development Tools' version='2.0.200.v201612211424'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/releases/neon'/>
+      </repositories>
+    </iu>
     <iu id='JMockit_Eclipse_Plugin.feature.group' name='JMockit Eclipse Plug-in' version='1.0.1'>
       <repositories size='1'>
         <repository location='http://dl.bintray.com/ajermakovics/jmockit/1.0.1/'/>
       </repositories>
     </iu>
     <iu id='org.jvmmonitor.feature.group' name='JVM Monitor' version='3.8.1.201302030008'>
-      <repositories size='1'>
-        <repository location='http://jvmmonitor.org/updates/3.8'/>
-      </repositories>
+      <repositories size='0'/>
     </iu>
     <iu id='org.eclipse.m2e.feature.feature.group' name='m2e - Maven Integration for Eclipse (includes Incubating components)' version='1.7.0.20160603-1933'>
       <repositories size='1'>
@@ -97,68 +98,70 @@
       </repositories>
     </iu>
     <iu id='org.moreunit.feature.group' name='MoreUnit For Java' version='3.1.1'>
-      <repositories size='1'>
-        <repository location='http://moreunit.sourceforge.net/update-site/'/>
-      </repositories>
+      <repositories size='0'/>
     </iu>
     <iu id='org.moreunit.mock.feature.group' name='MoreUnit For Java: Mock Support' version='3.1.1'>
-      <repositories size='1'>
-        <repository location='http://moreunit.sourceforge.net/update-site/'/>
-      </repositories>
+      <repositories size='0'/>
     </iu>
     <iu id='org.moreunit.light.feature.group' name='MoreUnit Light' version='3.1.1'>
-      <repositories size='1'>
-        <repository location='http://moreunit.sourceforge.net/update-site/'/>
-      </repositories>
+      <repositories size='0'/>
     </iu>
-    <iu id='org.eclipse.mylyn.hudson.feature.group' name='Mylyn Builds Connector: Hudson/Jenkins' version='1.14.0.v20170214-1635'>
+    <iu id='org.eclipse.mylyn.hudson.feature.group' name='Mylyn Builds Connector: Hudson/Jenkins' version='1.15.0.v20170411-2141'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.ide_feature.feature.group' name='Mylyn Context Connector: Eclipse IDE' version='3.22.0.v20161011-2234'>
+    <iu id='org.eclipse.mylyn.ide_feature.feature.group' name='Mylyn Context Connector: Eclipse IDE' version='3.23.0.v20170411-2108'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.java_feature.feature.group' name='Mylyn Context Connector: Java Development' version='3.22.0.v20161011-2234'>
+    <iu id='org.eclipse.mylyn.java_feature.feature.group' name='Mylyn Context Connector: Java Development' version='3.23.0.v20170411-2108'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn_feature.feature.group' name='Mylyn Task List' version='3.22.0.v20170324-1838'>
+    <iu id='org.eclipse.mylyn_feature.feature.group' name='Mylyn Task List' version='3.23.1.v20170623-0008'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.context_feature.feature.group' name='Mylyn Task-Focused Interface' version='3.22.0.v20170207-0918'>
+    <iu id='org.eclipse.mylyn.context_feature.feature.group' name='Mylyn Task-Focused Interface' version='3.23.0.v20170414-0629'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.bugzilla_feature.feature.group' name='Mylyn Tasks Connector: Bugzilla' version='3.22.0.v20161122-1702'>
+    <iu id='org.eclipse.mylyn.bugzilla_feature.feature.group' name='Mylyn Tasks Connector: Bugzilla' version='3.23.1.v20170623-0008'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.git.feature.group' name='Mylyn Versions Connector: Git' version='1.14.0.v20170207-0942'>
+    <iu id='org.eclipse.mylyn.git.feature.group' name='Mylyn Versions Connector: Git' version='1.15.0.v20170411-2003'>
       <repositories size='1'>
         <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
       </repositories>
     </iu>
-    <iu id='org.eclipse.mylyn.wikitext_feature.feature.group' name='Mylyn WikiText' version='3.0.8.201705042121'>
+    <iu id='org.eclipse.mylyn.wikitext_feature.feature.group' name='Mylyn WikiText' version='2.10.1.v20161129-1925'>
       <repositories size='1'>
-        <repository location='http://download.eclipse.org/mylyn/releases/latest'/>
+        <repository location='http://download.eclipse.org/releases/neon'/>
       </repositories>
     </iu>
-    <iu id='com.socosomi.storyteller.feature.group' name='StoryTeller' version='1.4.0.201208182120'>
+    <iu id='com.socosomi.storyteller.feature.group' name='StoryTeller' version='1.4.1.201707211714'>
+      <repositories size='0'/>
+    </iu>
+    <iu id='com.dubture.symfony.feature.feature.group' name='Symfony Feature' version='1.4.0.201707041949'>
       <repositories size='1'>
-        <repository location='http://storyteller.socosomi.com/update/'/>
+        <repository location='http://p2.pdt-extensions.org/'/>
       </repositories>
     </iu>
     <iu id='testNameGenerator.feature.group' name='TestNameGenerator' version='1.0.4.201412120157'>
       <repositories size='1'>
         <repository location='http://testNameGenerator.github.io/Eclipse-plugin/'/>
+      </repositories>
+    </iu>
+    <iu id='com.dubture.twig.feature.feature.group' name='Twig Editor Feature' version='2.1.0.201707041923'>
+      <repositories size='1'>
+        <repository location='http://p2.pdt-extensions.org/'/>
       </repositories>
     </iu>
     <iu id='org.dadacoalition.yedit.feature.feature.group' name='YEdit Feature' version='1.0.20.201509041456-RELEASE'>
