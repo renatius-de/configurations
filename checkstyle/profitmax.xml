@@ -5,6 +5,36 @@
     <property name="charset" value="UTF-8" />
     <property name="fileExtensions" value="java, properties, xml" />
     <module name="TreeWalker">
+        <module name="ArrayTrailingComma" />
+        <module name="CovariantEquals" />
+        <module name="DeclarationOrder" />
+        <module name="DefaultComesLast" />
+        <module name="EmptyStatement" />
+        <module name="FinalLocalVariable">
+            <property name="tokens" value="VARIABLE_DEF,PARAMETER_DEF" />
+            <property name="validateEnhancedForLoopVariable" value="true" />
+        </module>
+        <module name="IllegalThrows" />
+        <module name="InnerAssignment" />
+        <module name="ModifiedControlVariable" />
+        <module name="NestedForDepth">
+            <property name="max" value="3" />
+        </module>
+        <module name="NestedIfDepth">
+            <property name="max" value="3" />
+        </module>
+        <module name="NestedTryDepth">
+            <property name="max" value="3" />
+        </module>
+        <module name="PackageDeclaration" />
+        <module name="ParameterAssignment" />
+        <module name="ReturnCount">
+            <!-- <property name="maxForVoid" value="0" /> -->
+        </module>
+        <module name="SimplifyBooleanExpression" />
+        <module name="SimplifyBooleanReturn" />
+        <module name="StringLiteralEquality" />
+        <module name="UnnecessaryParentheses" />
         <module name="FileContentsHolder" />
         <module name="OuterTypeFilename" />
         <module name="IllegalTokenText">
