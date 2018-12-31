@@ -1,0 +1,499 @@
+{
+  "plugins": [
+    {
+      "pluginId": "CVS",
+      "pluginName": "CVS Integration",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "Git4Idea",
+      "pluginName": "Git Integration",
+      "dependencyPluginIds": [
+        "com.intellij.modules.vcs"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "JsChilicat",
+      "pluginName": "JsChilicat",
+      "downloadUrl": "http://jschilicat.chilicat.net",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "MoreUnit",
+      "pluginName": "MoreUnit",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "PHPUnit code coverage",
+      "pluginName": "PHPUnit code coverage",
+      "downloadUrl": "https://github.com/oker1/phpunit_codecoverage_display",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "PerforceDirectPlugin",
+      "pluginName": "Perforce Integration",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.ultimate"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "Subversion",
+      "pluginName": "Subversion Integration",
+      "dependencyPluginIds": [
+        "com.intellij.modules.vcs"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "TFS",
+      "pluginName": "TFS",
+      "dependencyPluginIds": [
+        "com.intellij.modules.vcs"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "com.dubreuia",
+      "pluginName": "Save Actions",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.java"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.modules.java"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.leinardi.pycharm.pylint",
+      "pluginName": "Pylint",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.python"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "hg4idea",
+      "pluginName": "Mercurial Integration",
+      "dependencyPluginIds": [
+        "com.intellij.modules.vcs"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "Heroku",
+      "pluginName": "Heroku integration",
+      "dependencyPluginIds": [
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.ultimate",
+        "Git4Idea",
+        "com.intellij.javaee"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.javaee"
+      ],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "com.jetbrains.twig",
+      "pluginName": "Twig Support",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.ultimate",
+        "org.intellij.intelliLang"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.intellij.intelliLang"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "org.jetbrains.plugins.github",
+      "pluginName": "GitHub",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "com.intellij.tasks"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.tasks"
+      ],
+      "isBundle": true,
+      "isEnable": false
+    },
+    {
+      "pluginId": "NodeJS",
+      "pluginName": "NodeJS",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "JavaScript",
+        "JavaScriptDebugger",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.coverage"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.modules.coverage"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.jetbrains.php",
+      "pluginName": "PHP",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.xml",
+        "com.intellij.css",
+        "com.intellij.modules.ultimate",
+        "com.intellij.java-i18n",
+        "com.intellij.diagram",
+        "com.intellij.modules.coverage",
+        "com.jetbrains.plugins.webDeployment",
+        "org.intellij.intelliLang",
+        "com.intellij.plugins.html.instantEditing",
+        "com.jetbrains.restClient",
+        "com.intellij.copyright"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.diagram",
+        "com.intellij.modules.coverage",
+        "com.jetbrains.plugins.webDeployment",
+        "org.intellij.intelliLang",
+        "com.intellij.plugins.html.instantEditing",
+        "com.jetbrains.restClient",
+        "com.intellij.copyright"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.aurimasniekis.phpclasstemplates",
+      "pluginName": "PHP Class Templates",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.aurimasniekis.phppsr4namespacedetector",
+      "pluginName": "PHP PSR-4 Namespace Detector",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.dirzys.phpstormzf1",
+      "pluginName": "ZF1 integration plugin",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.jetbrains.php.behat",
+      "pluginName": "Behat Support",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.jetbrains.php",
+        "com.intellij.modules.ultimate",
+        "gherkin",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.kalessil.phpStorm.phpInspectionsEA",
+      "pluginName": "Php Inspections (EA Extended)",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "de.espend.idea.php.phpunit",
+      "pluginName": "PHPUnit Enhancement",
+      "downloadUrl": "https://github.com/Haehnchen/idea-php-phpunit-plugin",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "de.espend.idea.php.toolbox",
+      "pluginName": "PHP Toolbox",
+      "downloadUrl": "https://github.com/Haehnchen/idea-php-toolbox",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.jetbrains.twig",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "de.espend.idea.php.annotation",
+      "pluginName": "PHP Annotations",
+      "downloadUrl": "https://github.com/Haehnchen/idea-php-annotation-plugin",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform",
+        "de.espend.idea.php.toolbox"
+      ],
+      "optionalDependencyPluginIds": [
+        "de.espend.idea.php.toolbox"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "me.artspb.idea.php.latest.plugin",
+      "pluginName": "PHP latest",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "net.king2500.plugins.PhpAdvancedAutoComplete",
+      "pluginName": "PHP Advanced AutoComplete",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "org.intellij.scala",
+      "pluginName": "Scala",
+      "downloadUrl": "http://www.jetbrains.net/confluence/display/SCA/Scala+Plugin+for+IntelliJ+IDEA",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "org.jetbrains.idea.maven",
+        "org.intellij.intelliLang",
+        "com.intellij.copyright",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.spring",
+        "Coverage",
+        "com.intellij.persistence",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.ultimate",
+        "com.intellij.css",
+        "JavaScript",
+        "JavaScriptDebugger",
+        "org.jetbrains.java.decompiler",
+        "org.jetbrains.android"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.idea.maven",
+        "org.intellij.intelliLang",
+        "com.intellij.copyright",
+        "com.intellij.properties",
+        "org.jetbrains.plugins.gradle",
+        "com.intellij.spring",
+        "Coverage",
+        "com.intellij.persistence",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.ultimate",
+        "com.intellij.css",
+        "JavaScript",
+        "JavaScriptDebugger",
+        "org.jetbrains.java.decompiler",
+        "org.jetbrains.android"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "Pythonid",
+      "pluginName": "Python",
+      "downloadUrl": "https://confluence.jetbrains.com/display/PYH/",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.ultimate",
+        "com.intellij.modules.java",
+        "Coverage",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.diagram",
+        "JavaScriptDebugger",
+        "org.jetbrains.plugins.rest",
+        "org.jetbrains.plugins.localization",
+        "com.intellij.modules.database",
+        "org.jetbrains.plugins.remote-run",
+        "gherkin",
+        "org.jetbrains.plugins.wsl",
+        "org.intellij.intelliLang",
+        "Docker",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.diagram",
+        "JavaScriptDebugger",
+        "org.jetbrains.plugins.rest",
+        "org.jetbrains.plugins.localization",
+        "com.intellij.modules.database",
+        "org.jetbrains.plugins.remote-run",
+        "gherkin",
+        "org.jetbrains.plugins.wsl",
+        "org.intellij.intelliLang",
+        "Docker",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.jetbrains.php.phpspec",
+      "pluginName": "PHPSpec BDD Framework",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.jetbrains.php",
+        "com.intellij.modules.ultimate",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.plugins.phpstorm-remote-interpreter"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "fr.adrienbrault.idea.symfony2plugin",
+      "pluginName": "Symfony Plugin",
+      "downloadUrl": "https://github.com/Haehnchen/idea-php-symfony2-plugin",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.jetbrains.twig",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
+        "de.espend.idea.php.annotation",
+        "de.espend.idea.php.toolbox",
+        "com.jetbrains.plugins.webDeployment"
+      ],
+      "optionalDependencyPluginIds": [
+        "de.espend.idea.php.toolbox",
+        "com.jetbrains.plugins.webDeployment"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "org.psliwa.idea.composer",
+      "pluginName": "PHP composer.json support",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "org.sylfra.idea.plugins.linessorter",
+      "pluginName": "Lines Sorter",
+      "downloadUrl": "https://github.com/syllant/idea-plugin-linessorter",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "pw.mcclure.djaneiro.pycharm",
+      "pluginName": "Djaneiro for PyCharm",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    }
+  ]
+}
